@@ -311,23 +311,38 @@ section .title::after{
     top: 0;
     background: #3664f4;
 }
-.skills-content .right .html::before{
+.skills-content .right .java::before{
+    width: 70%;
+}
+.skills-content .right .javascript::before{
     width: 40%;
+}
+.skills-content .right .php::before{
+    width: 50%;
+}
+.skills-content .right .react::before{
+    width: 50%;
 }
 .skills-content .right .css::before{
-    width: 40%;
-}
-.skills-content .right .python::before{
     width: 50%;
 }
-.skills-content .right .django::before{
-    width: 50%;
+.skills-content .right .bootstrap::before{
+    width: 60%;
 }
 .skills-content .right .mysql::before{
-    width: 30%;
-}
-.skills-content .right .sqls::before{
-    width: 30%;
+    width: 80%;
+}.skills-content .right .postgresql::before{
+    width: 70%;
+}.skills-content .right .oracle::before{
+    width: 50%;
+}.skills-content .right .sql-server::before{
+    width: 50%;
+}.skills-content .right .mongodb::before{
+    width: 40%;
+}.skills-content .right .nodejs::before{
+    width: 60%;
+}.skills-content .right .spring::before{
+    width: 50%;
 }
 /* projects section styling */
 .projects .title::after{
