@@ -13,7 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-    <script src="/js/script.js"></script>
+    <script src="js/script.js"></script>
 
 </head>
 <body>
@@ -193,36 +193,42 @@
     <!-- projects section start -->
     <section class="portfolio section" id="projects">
         <h2 class="title">Projects</h2>
-        <div class="portfolio__container bd-grid swiper">
-          <div class="swiper-wrapper">
-            <!-- Portafolio 1-->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="images/" alt="portafolio" class="portfolio__img">
-  
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Este es un texto de muestra, este es un texto de muestra</h3>
-                <p class="portfolio__description">Este es un texto de muestra, este es un texto de muestra</p>
-                <a href="#" class="button portfolio__button" target="_black">
-                  Demo <ion-icon name="arrow-forward-outline" class="button__icon"></ion-icon>
-                </a>
-              </div>
+        <div class="slider">
+            <div class="slider-wrapper flex">
+                <div class="slide flex">
+                    <div class="slide-image slider-link prev"><img src="https://goranvrban.com/codepen/img2.jpg"><div class="overlay"></div></div>
+                    <div class="slide-content">
+                        <div class="slide-title">LOREM IPSUM DOLOR SITE MATE, AD EST ABHORREANT</div>
+                        <div class="slide-text">Lorem ipsum dolor sit amet, ad est abhorreant efficiantur, vero oporteat apeirian in vel. Et appareat electram appellantur est. Ei nec duis invenire. Cu mel ipsum laoreet, per rebum omittam ex. </div>
+                        <div class="slide-more"><a href="https://github.com/williamsmanuel/">READ MORE</a></div>
+                    </div>	
+                </div>
+
+                <div class="slide flex">
+                    <div class="slide-image slider-link prev"><img src="https://goranvrban.com/codepen/img2.jpg"><div class="overlay"></div></div>
+                    <div class="slide-content">
+                        <div class="slide-title">LOREM IPSUM DOLOR SITE MATE, AD EST ABHORREANT</div>
+                        <div class="slide-text">Lorem ipsum dolor sit amet, ad est abhorreant efficiantur, vero oporteat apeirian in vel. Et appareat electram appellantur est. Ei nec duis invenire. Cu mel ipsum laoreet, per rebum omittam ex. </div>
+                        <div class="slide-more"><a href="https://github.com/williamsmanuel/">READ MORE</a></div>
+                    </div>	
+                </div>
+
+                <div class="slide flex">
+                    <div class="slide-image slider-link prev"><img src="https://goranvrban.com/codepen/img2.jpg"><div class="overlay"></div></div>
+                    <div class="slide-content">
+                        <div class="slide-title">LOREM IPSUM DOLOR SITE MATE, AD EST ABHORREANT</div>
+                        <div class="slide-text">Lorem ipsum dolor sit amet, ad est abhorreant efficiantur, vero oporteat apeirian in vel. Et appareat electram appellantur est. Ei nec duis invenire. Cu mel ipsum laoreet, per rebum omittam ex. </div>
+                        <div class="slide-more"><a href="https://github.com/williamsmanuel/">READ MORE</a></div>
+                    </div>	
+                </div>
             </div>
-  
-  
-          </div>
-  
-          <!-- Arrows -->
-          <div class="swiper-button-next">
-            <ion-icon name="chevron-forward-outline" class="swiper-portfolio-icon"></ion-icon>
-          </div>
-          <div class="swiper-button-prev">
-            <ion-icon name="chevron-back-outline" class="swiper-portfolio-icon"></ion-icon>
-          </div>
-          <!-- Pagination -->
-          <div class="swiper-pagination"></div>
-  
-        </div>
-      </section>
+
+            <div class="arrows">
+            <a href="#" title="Previous" class="arrow slider-link prev"></a>
+            <a href="#" title="Next" class="arrow slider-link next"></a>
+            </div>
+            </div>
+    </section>
 
      <!-- contact section start -->\
      <section class="contact" id="contact">
@@ -276,12 +282,11 @@
             Created By <a href="#">Williams Castillo</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.
         </span>
     </footer>  
+   
     <a href="#home" class="scrollup" id="scroll-up">
         <ion-icon name="arrow-up-outline" class="scrollup__icon"></ion-icon>
       </a>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
-
+      <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script><script  src="js/swiper-bundle.min.js"></script>
 </body>
 </html>
