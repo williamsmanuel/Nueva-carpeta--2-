@@ -11,31 +11,22 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
     });
-
+    
     let swiper = new Swiper('.portfolio__container', {
-  cssMode: true,
-  loop: true,
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-})
-
-const scrollTop = document.getElementById('scroll-up')
-
-window.onscroll = function(){ scrollUp() };
-
-function scrollUp() {
-  if(document.body.scrollTop > 560 || document.documentElement.scrollTop > 560){
-    scrollTop.classList.add('show-scroll');
-  } else {
-    scrollTop.classList.remove('show-scroll');
-  }
-}
+        cssMode: true,
+        loop: true,
+    
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+    });
+    
+    
     // slide-up script
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
